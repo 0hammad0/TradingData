@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.delete-button {
+  visibility: hidden;
+  display: inline-block;
+}
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}
